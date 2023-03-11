@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input {
+    font-family: "Poppins", sans-serif;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    width: 20rem;
+   font-size: 80%;
+    margin: 1rem 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+.cardWrap{
+   display: flex;
+   direction: row;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.card p{
+    padding: 1px;
+}
+.contactCardImg{
+    border-radius: 50%;
+}
+.card h1{
+    font-size: 1.5rem !important;
+}
+.card .title{
+    font-size: 1.2rem !important;
+}
+.containerWrap{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.contentheading{
+    margin: 2rem !important;
+    text-align: center !important;
+
+}
+.containerWrap button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+
